@@ -30,7 +30,7 @@ def favicon():
         static_root = app.static_folder if os.path.isabs(app.static_folder) else os.path.join(app.root_path, app.static_folder)
         img_dir = os.path.join(static_root, 'img')
         ico_path = os.path.join(img_dir, 'favicon.ico')
-        png_path = os.path.join(img_dir, 'favicon.png')
+        png_path = os.path.join(img_dir, 'favicon.ico')
         if os.path.exists(ico_path):
             return send_from_directory(img_dir, 'favicon.ico', mimetype='image/vnd.microsoft.icon')
         if os.path.exists(png_path):
