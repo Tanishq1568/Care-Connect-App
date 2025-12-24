@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify, send_from_directory, abort
+gcdfrom flask import Flask, render_template, request, jsonify, send_from_directory, abort
 import json
 import os
 from data import disease_rules
@@ -25,14 +25,19 @@ def index():
 
 @app.route('/favicon.ico')
 def favicon():
-    # Serve favicon.ico if present, otherwise fall back to favicon.png; return 404 if neither exists
-    img_dir = os.path.join(app.static_folder, 'img')
-    ico_path = os.path.join(img_dir, 'favicon.ico')
-    png_path = os.path.join(img_dir, 'favicon.png')
-    if os.path.exists(ico_path):
-        return send_from_directory(img_dir, 'favicon.ico', mimetype='image/vnd.microsoft.icon')
-    if os.path.exists(png_path):
-        return send_from_directory(img_dir, 'favicon.png', mimetype='image/png')
+    # Robust favicon serving: use absolute paths and handle exceptions to avoid 500 errors
+    try:
+        static_root = app.static_folder if os.path.isabs(app.static_folder) else os.path.join(app.root_path, app.static_folder)
+        img_dir = os.path.join(static_root, 'img')
+        ico_path = os.path.join(img_dir, 'favicon.ico')
+        png_path = os.path.join(img_dir, 'favicon.png')
+        if os.path.exists(ico_path):
+            return send_from_directory(img_dir, 'favicon.ico', mimetype='image/vnd.microsoft.icon')
+        if os.path.exists(png_path):
+            return send_from_directory(img_dir, 'favicon.png', mimetype='image/png')
+    except Exception:
+        app.logger.exception("Error serving favicon")
+    # If file not found or error occurred, return 404 so we don't return a 500
     abort(404)
 
 # Emergency Module
