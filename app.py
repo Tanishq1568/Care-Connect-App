@@ -1,5 +1,6 @@
-from flask import Flask, render_template, request, jsonify, send_from_directory
+from flask import Flask, render_template, request, jsonify, send_from_directory, abort
 import json
+import os
 from data import disease_rules
 
 app = Flask(__name__, 
@@ -24,11 +25,15 @@ def index():
 
 @app.route('/favicon.ico')
 def favicon():
-    return send_from_directory(
-        directory='static/img',
-        path='favicon.ico',
-        mimetype='image/vnd.microsoft.icon'
-    )
+    # Serve favicon.ico if present, otherwise fall back to favicon.png; return 404 if neither exists
+    img_dir = os.path.join(app.static_folder, 'img')
+    ico_path = os.path.join(img_dir, 'favicon.ico')
+    png_path = os.path.join(img_dir, 'favicon.png')
+    if os.path.exists(ico_path):
+        return send_from_directory(img_dir, 'favicon.ico', mimetype='image/vnd.microsoft.icon')
+    if os.path.exists(png_path):
+        return send_from_directory(img_dir, 'favicon.png', mimetype='image/png')
+    abort(404)
 
 # Emergency Module
 with open('emergency_data.json') as f:
