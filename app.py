@@ -1,4 +1,4 @@
-gcdfrom flask import Flask, render_template, request, jsonify, send_from_directory, abort
+from flask import Flask, render_template, request, jsonify, send_from_directory, abort
 import json
 import os
 from data import disease_rules
