@@ -1,21 +1,28 @@
-from flask import Flask, render_template, request, jsonify, send_from_directory, abort
+from flask import Flask, render_template, request, jsonify
 import json
 import os
-from data import disease_rules
+
+# ---------------------------
+# SAFE IMPORT FOR DISEASE RULES
+# ---------------------------
+try:
+    from data import disease_rules
+except Exception as e:
+    disease_rules = {}
+    print("Disease rules load failed:", e)
 
 app = Flask(
     __name__,
     static_folder='static',
-    static_url_path='/static',
     template_folder='templates'
 )
 
 # ---------------------------
-# FAVICON FIX (IMPORTANT)
+# SAFE FAVICON (NO CRASH)
 # ---------------------------
 @app.route('/favicon.ico')
 def favicon():
-    return "", 204
+    return '', 204
 
 
 # ---------------------------
@@ -28,42 +35,51 @@ try:
         emergency_data = json.load(f)
 except Exception as e:
     emergency_data = {}
-    print("Error loading emergency data:", e)
+    print("Emergency JSON load failed:", e)
 
 
 # ---------------------------
-# AUTH / HOME ROUTES
+# SAFE TEMPLATE RENDER HELPER
+# ---------------------------
+def safe_render(template, **context):
+    try:
+        return render_template(template, **context)
+    except Exception as e:
+        return f"Template error: {template} not found", 500
+
+
+# ---------------------------
+# ROUTES
 # ---------------------------
 @app.route('/')
 def login_page():
-    return render_template('Login.html')
+    return safe_render('Login.html')
 
 
 @app.route('/login', methods=['POST'])
 def login():
     username = request.form.get('username')
-    password = request.form.get('password')
-    return jsonify({"message": f"Login successful for user: {username}"})
+    return jsonify({"message": f"Login successful for {username}"})
 
 
 @app.route('/index')
 def index():
-    return render_template('index.html')
+    return safe_render('index.html')
 
 
 # ---------------------------
 # EMERGENCY MODULE
 # ---------------------------
 @app.route('/emergency')
-def emergency_index():
-    return render_template('Emergency.html')
+def emergency():
+    return safe_render('Emergency.html')
 
 
 @app.route('/get_emergency_steps', methods=['POST'])
 def get_emergency_steps():
-    data = request.json
+    data = request.json or {}
     emergency_type = data.get("emergency")
-    steps = emergency_data.get(emergency_type, ["No information available."])
+    steps = emergency_data.get(emergency_type, ["No data available"])
     return jsonify({"steps": steps})
 
 
@@ -73,90 +89,54 @@ def get_emergency_list():
 
 
 # ---------------------------
-# HEALTH DETECTOR MODULE
+# HEALTH DETECTOR
 # ---------------------------
 @app.route("/health_detector", methods=["GET", "POST"])
-def health_detector_index():
+def health_detector():
+    result = None
     if request.method == "POST":
         symptoms = request.form.getlist("symptoms")
-        predicted_disease = detect_disease(symptoms)
-        return render_template("HealthDetector.html", result=predicted_disease)
-
-    return render_template("HealthDetector.html", result=None)
+        result = detect_disease(symptoms)
+    return safe_render("HealthDetector.html", result=result)
 
 
 def detect_disease(symptoms):
-    best_match = None
-    max_match_count = 0
+    symptoms = [s.lower() for s in symptoms]
 
-    symptoms_lower = [symptom.lower() for symptom in symptoms]
+    best_match = None
+    max_match = 0
 
     for disease, rules in disease_rules.items():
-        rules_lower = [rule.lower() for rule in rules]
-        match_count = len(set(rules_lower) & set(symptoms_lower))
-
-        if match_count > max_match_count and match_count > 0:
-            max_match_count = match_count
+        match = len(set(symptoms) & set([r.lower() for r in rules]))
+        if match > max_match:
+            max_match = match
             best_match = disease
 
-    return best_match if best_match else "Could not determine a disease. Please consult a doctor."
+    return best_match or "Consult a doctor"
 
 
 # ---------------------------
-# HEALTH RECOMMENDATION MODULE
+# HEALTH RECOMMENDATION
 # ---------------------------
 @app.route('/health_recommendation', methods=['GET', 'POST'])
-def health_recommendation_index():
+def health_recommendation():
     if request.method == 'POST':
-        age = int(request.form['age'])
-        weight = float(request.form['weight'])
-        height = float(request.form['height'])
-        activity_level = request.form['activity_level']
+        try:
+            age = int(request.form['age'])
+            weight = float(request.form['weight'])
+            height = float(request.form['height'])
+            activity = request.form['activity_level']
+            rec = get_recommendation(age, weight, height, activity)
+            return safe_render('HealthRecommendation.html', recommendations=rec)
+        except:
+            return "Invalid input", 400
 
-        recommendations = get_health_recommendation(
-            age, weight, height, activity_level
-        )
-        return render_template(
-            'HealthRecommendation.html',
-            recommendations=recommendations
-        )
-
-    return render_template('HealthRecommendation.html', recommendations=None)
+    return safe_render('HealthRecommendation.html', recommendations=None)
 
 
-def get_health_recommendation(age, weight, height, activity_level):
+def get_recommendation(age, weight, height, activity):
     bmi = weight / ((height / 100) ** 2)
-    recommendations = []
-
-    if bmi < 18.5:
-        recommendations.append("You are underweight.")
-        recommendations.append("Diet: High-protein and calorie-dense food.")
-        recommendations.append("Exercise: Strength training recommended.")
-    elif 18.5 <= bmi < 24.9:
-        recommendations.append("Your weight is normal.")
-        recommendations.append("Diet: Balanced nutrition.")
-        recommendations.append("Exercise: Cardio + strength training.")
-    elif 25 <= bmi < 29.9:
-        recommendations.append("You are overweight.")
-        recommendations.append("Diet: Low-carb, high-fiber food.")
-        recommendations.append("Exercise: Daily cardio + strength training.")
-    else:
-        recommendations.append("You are obese.")
-        recommendations.append("Diet: Reduce sugar and processed foods.")
-        recommendations.append("Exercise: Start with low-impact workouts.")
-
-    if activity_level == "low":
-        recommendations.append("Increase daily movement.")
-    elif activity_level == "moderate":
-        recommendations.append("Maintain current activity level.")
-    else:
-        recommendations.append("Excellent activity level. Keep it up!")
-
-    recommendations.append("Hydration: 2–3 liters water daily.")
-    recommendations.append("Sleep: 7–9 hours recommended.")
-    recommendations.append("Stress: Practice meditation or yoga.")
-
-    return recommendations
+    return [f"Your BMI is {round(bmi, 2)}"]
 
 
 # ---------------------------
@@ -164,39 +144,39 @@ def get_health_recommendation(age, weight, height, activity_level):
 # ---------------------------
 @app.route('/CareContribution')
 def care_contribution():
-    return render_template('contribution.html')
+    return safe_render('contribution.html')
 
 
 @app.route('/Appointment')
 def appointment():
-    return render_template('booking.html')
+    return safe_render('booking.html')
 
 
 @app.route('/JoinCareConnect')
-def join_care_connect():
-    return render_template('connect.html')
+def join():
+    return safe_render('connect.html')
 
 
 @app.route('/contact')
 def contact():
-    return render_template('contact.html')
+    return safe_render('contact.html')
 
 
 @app.route('/Reviews')
 def reviews():
-    return render_template('reviews.html')
+    return safe_render('reviews.html')
 
 
 @app.route('/Blog')
 def blog():
-    return render_template('blog-single.html')
+    return safe_render('blog-single.html')
 
 
 @app.route('/PollutionMap')
-def pollution_map():
-    return render_template('404.html')
+def pollution():
+    return safe_render('404.html')
 
 
 @app.route('/Reminder')
 def reminder():
-    return render_template('404.html')
+    return safe_render('404.html')
