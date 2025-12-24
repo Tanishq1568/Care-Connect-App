@@ -63,34 +63,34 @@
                                                         <a href="{{ url_for('health_recommendation_index') }}">Health Recommendations </a>
                                                     </li>
                                                     <li>
-                                                        <a href="/Reminder">Reminder </a>
+                                                        <a href="{{ url_for('reminder') }}">Reminder </a>
                                                     </li>
                                                     <li>
-                                                        <a href="/PollutionMap">Pollution Map </a>
+                                                        <a href="{{ url_for('pollution_map') }}">Pollution Map </a>
                                                     </li>
                                                     <li>
-                                                        <a href="/Appointment">Appointment Booking </a>
+                                                        <a href="{{ url_for('appointment') }}">Appointment Booking </a>
                                                     </li>
                                                     <li>
-                                                        <a href="/CareContribution">Care Contribution </a>
+                                                        <a href="{{ url_for('care_contribution') }}">Care Contribution </a>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li><a href="#">Pages <i class="icofont-rounded-down"></i></a>
                                                 <ul class="dropdown">
                                                     <li>
-                                                        <a href="/Blog">Blog </a>
+                                                        <a href="{{ url_for('blog') }}">Blog </a>
                                                     </li>
                                                     <li>
-                                                        <a href="/Reviews">Reviews </a>
+                                                        <a href="{{ url_for('reviews') }}">Reviews </a>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="/JoinCareConnect">Join CareConnect </a>
+                                                <a href="{{ url_for('join_care_connect') }}">Join CareConnect </a>
                                             </li>
                                             <li>
-                                                <a href="/contact">Contact Us</a>
+                                                <a href="{{ url_for('contact') }}">Contact Us</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -117,7 +117,7 @@
                                     <p>We provide you with multiple and best services in healthcare industry. </p>
                                     <div class="button">
                                         <a href="#" class="btn">Services</a>
-                                        <a href="/contact" class="btn primary">Contact Us</a>
+                                        <a href="{{ url_for('contact') }}" class="btn primary">Contact Us</a>
                                     </div>
                                 </div>
                             </div>
@@ -133,7 +133,7 @@
                                     <p>We provide free support for emergency conditions. </p>
                                     <div class="button">
                                         <a href="{{ url_for('emergency_index') }}" class="btn">Emergency</a>
-                                        <a href="/contact" class="btn primary">Contact Us</a>
+                                        <a href="{{ url_for('contact') }}" class="btn primary">Contact Us</a>
                                     </div>
                                 </div>
                             </div>
@@ -148,8 +148,8 @@
                                     <h1>We Provide <span>Medical</span> Services That You Can <span>Trust!</span></h1>
                                     <p>This AI powered bot can predict your disease with a increadible 90% accuracy, without any appointment. </p>
                                     <div class="button">
-                                        <a href="/DiseaseDetector" class="btn">Disease Detector</a>
-                                        <a href="/contact" class="btn primary">Contact Us</a>
+                                        <a href="{{ url_for('health_detector_index') }}" class="btn">Disease Detector</a>
+                                        <a href="{{ url_for('contact') }}" class="btn primary">Contact Us</a>
                                     </div>
                                 </div>
                             </div>
@@ -164,8 +164,8 @@
                                     <h1>We Provide <span>Medical</span> Services That You Can <span>Trust!</span></h1>
                                     <p>This AI powered bot can give recommendations to improve your health conditions. </p>
                                     <div class="button">
-                                        <a href="/HealthRecommendation" class="btn">Health Recommendations</a>
-                                        <a href="/contact" class="btn primary">Contact Us</a>
+                                        <a href="{{ url_for('health_recommendation_index') }}" class="btn">Health Recommendations</a>
+                                        <a href="{{ url_for('contact') }}" class="btn primary">Contact Us</a>
                                     </div>
                                 </div>
                             </div>
@@ -180,8 +180,8 @@
                                     <h1>We Provide <span>Medical</span> Services That You Can <span>Trust!</span></h1>
                                     <p>You can add reminders for your medicines or appointments. </p>
                                     <div class="button">
-                                        <a href="/Reminder" class="btn">Reminder</a>
-                                        <a href="/contact" class="btn primary">Contact Us</a>
+                                        <a href="{{ url_for('reminder') }}" class="btn">Reminder</a>
+                                        <a href="{{ url_for('contact') }}" class="btn primary">Contact Us</a>
                                     </div>
                                 </div>
                             </div>
@@ -196,8 +196,8 @@
                                     <h1>We Provide <span>Medical</span> Services That You Can <span>Trust!</span></h1>
                                     <p>Find safe and pollution free places to visit, keep you and your family safe. </p>
                                     <div class="button">
-                                        <a href="/PollutionMap" class="btn">Pollution Map</a>
-                                        <a href="/contact" class="btn primary">Contact Us</a>
+                                        <a href="{{ url_for('pollution_map') }}" class="btn">Pollution Map</a>
+                                        <a href="{{ url_for('contact') }}" class="btn primary">Contact Us</a>
                                     </div>
                                 </div>
                             </div>
@@ -212,8 +212,8 @@
                                     <h1>We Provide <span>Medical</span> Services That You Can <span>Trust!</span></h1>
                                     <p>Book your doctor's appointment here. Fast,easy and quick. </p>
                                     <div class="button">
-                                        <a href="/Appointment" class="btn">Appointment Booking</a>
-                                        <a href="/contact" class="btn primary">Contact Us</a>
+                                        <a href="{{ url_for('appointment') }}" class="btn">Appointment Booking</a>
+                                        <a href="{{ url_for('contact') }}" class="btn primary">Contact Us</a>
                                     </div>
                                 </div>
                             </div>
@@ -228,8 +228,8 @@
                                     <h1>We Provide <span>Medical</span> Services That You Can <span>Trust!</span></h1>
                                     <p>Join CareConnect community, provide services and get paid. </p>
                                     <div class="button">
-                                        <a href="/joinCareConnect" class="btn">Join CareConnect</a>
-                                        <a href="/contact" class="btn primary">Contact Us</a>
+                                        <a href="{{ url_for('join_care_connect') }}" class="btn">Join CareConnect</a>
+                                        <a href="{{ url_for('contact') }}" class="btn primary">Contact Us</a>
                                     </div>
                                 </div>
                             </div>
@@ -244,8 +244,8 @@
                                     <h1>We Provide <span>Medical</span> Services That You Can <span>Trust!</span></h1>
                                     <p>Rate our services and check out the reviews. </p>
                                     <div class="button">
-                                        <a href="/Reviews" class="btn">Reviews</a>
-                                        <a href="/contact" class="btn primary">Contact Us</a>
+                                        <a href="{{ url_for('reviews') }}" class="btn">Reviews</a>
+                                        <a href="{{ url_for('contact') }}" class="btn primary">Contact Us</a>
                                     </div>
                                 </div>
                             </div>
@@ -260,8 +260,8 @@
                                     <h1>We Provide <span>Medical</span> Services That You Can <span>Trust!</span></h1>
                                     <p>Contribute for the ones in need. </p>
                                     <div class="button">
-                                        <a href="/CareContribution" class="btn">Care Contribution </a>
-                                        <a href="/contact" class="btn primary">Contact Us</a>
+                                        <a href="{{ url_for('care_contribution') }}" class="btn">Care Contribution </a>
+                                        <a href="{{ url_for('contact') }}" class="btn primary">Contact Us</a>
                                     </div>
                                 </div>
                             </div>
