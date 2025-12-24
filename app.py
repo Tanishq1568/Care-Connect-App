@@ -23,7 +23,7 @@ def login():
 def index():
     return render_template('index.html')
 
-@app.route('/favicon.ico')
+@app.route('/static/img/favicon.ico')
 def favicon():
     # Robust favicon serving: use absolute paths and handle exceptions to avoid 500 errors
     try:
