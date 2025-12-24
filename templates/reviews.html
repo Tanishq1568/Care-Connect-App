@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/reviews.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <div id="post-review">
+        <h2>Post a Review</h2>
+        <form id="review-form">
+            <label for="reviewer-name">Your Name:</label>
+            <input type="text" id="reviewer-name" required placeholder="Enter your name">
+
+            <label for="review-text">Your Review:</label>
+            <textarea id="review-text" required style="resize: none"></textarea>
+
+            <label for="review-subject">Review for:</label>
+            <select id="review-subject" required>
+                <option value="" disabled selected>Select a service</option>
+                <option value="Disease Detector">Disease Detector</option>
+                <option value="Personalised Health Recommandation">Personalised Health Recommandation</option>
+                <option value="Checkup and Medicine Reminder">Checkup and Medicine Reminder</option>
+                <option value="Population Map">Population Map</option>
+                <option value="Care Contributions">Care Contributions</option>
+                <option value="Appointment Booking">Appointment Booking</option>
+            </select>
+            
+            <div class="rating">
+                <label for="rating">Rating:</label>
+                <div class="stars">
+                    <i class="fa-regular fa-star" data-rating="1"></i>
+                    <i class="fa-regular fa-star" data-rating="2"></i>
+                    <i class="fa-regular fa-star" data-rating="3"></i>
+                    <i class="fa-regular fa-star" data-rating="4"></i>
+                    <i class="fa-regular fa-star" data-rating="5"></i>
+                </div>
+                <input type="hidden" name="rating" id="rating-value" value="0">
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <h2 id="review-head">Reviews</h2>
+    <div id="reviews-container">
+        <!-- Example Review -->
+        <div class="review-item">
+            <div class="review-header">
+                <h3>Disease Detector</h3>
+                <div class="rating-display">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="review-meta">
+                <span class="reviewer-name">John Doe</span>
+                <span class="review-date">Posted on: May 15, 2023 at 2:30 PM</span>
+            </div>
+            <p>The Disease Detector service was extremely helpful! It quickly analyzed my symptoms and provided accurate information about potential conditions. The interface was intuitive and the recommendations were clear. I would definitely recommend this to anyone looking for preliminary health insights.</p>
+        </div>
+    </div>  
+    
+    <script src="{{ url_for('static', filename='js/reviews.js') }}"></script>
+</body>
+</html>

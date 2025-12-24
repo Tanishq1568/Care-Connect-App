@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    /* Primary Colors */
+    --primary-color: #1A76D1;
+    --primary-dark: #1563b5;
+    --primary-light: #4a94e6;
+    --primary-gradient: linear-gradient(135deg, #1A76D1 0%, #3a8be0 100%);
+    --danger-color: #dc3545;
+    --danger-dark: #bd2130;
+    --danger-light: #e25561;
+    --danger-gradient: linear-gradient(135deg, #dc3545 0%, #e25561 100%);
+    
+    /* Text Colors */
+    --text-dark: #2C2D3F;
+    --text-light: #868686;
+    --text-placeholder: #bbb;
+    
+    /* Neutral Colors */
+    --white: #fff;
+    --light-gray: #f9f9f9;
+    --light-gray-alt: #f0f3f8;
+    --border-color: #eee;
+    
+    /* Shadow */
+    --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    --button-shadow: 0 8px 20px rgba(26, 118, 209, 0.25);
+    --danger-button-shadow: 0 8px 20px rgba(220, 53, 69, 0.25);
+    --button-shadow-hover: 0 12px 25px rgba(26, 118, 209, 0.35);
+    --danger-button-shadow-hover: 0 12px 25px rgba(220, 53, 69, 0.35);
+    
+    /* Border Radius */
+    --border-radius: 6px;
+    --border-radius-large: 12px;
+    
+    /* Spacing */
+    --spacing-xs: 5px;
+    --spacing-sm: 10px;
+    --spacing-md: 15px;
+    --spacing-lg: 20px;
+    --spacing-xl: 30px;
+    --spacing-xxl: 40px;
+    
+    /* Transitions */
+    --transition-speed: 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background: var(--light-gray-alt);
+    color: var(--text-dark);
+}
+
+body {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: max-content;
+}
+
+h1 {
+    color: var(--text-dark);
+    font-weight: 600;
+    margin-bottom: var(--spacing-xl);
+    position: relative;
+    padding-bottom: var(--spacing-md);
+    text-align: center;
+    font-size: 32px;
+}
+
+h1:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    height: 4px;
+    width: 60px;
+    background: var(--danger-gradient);
+    border-radius: 4px;
+}
+
+.container {
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+    background: var(--white);
+    padding: var(--spacing-xxl);
+    border-radius: var(--border-radius-large);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: var(--danger-gradient);
+}
+
+button {
+    background: var(--danger-gradient);
+    color: var(--white);
+    border: none;
+    padding: 14px 30px;
+    font-weight: 500;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: var(--transition-speed);
+    font-size: 16px;
+    margin-top: var(--spacing-md);
+    box-shadow: var(--danger-button-shadow);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #bd2130 0%, #dc3545 100%);
+    z-index: -1;
+    opacity: 0;
+    transition: var(--transition-speed);
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--danger-button-shadow-hover);
+}
+
+button:hover::before {
+    opacity: 1;
+}
+
+button:active {
+    transform: translateY(-1px);
+}
+
+.emergency-info {
+    margin-top: var(--spacing-lg);
+    text-align: left;
+    padding: var(--spacing-lg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    background-color: var(--light-gray);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.03);
+    transition: var(--transition-speed);
+}
+
+.emergency-info:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transform: translateY(-2px);
+}
+
+.emergency-info h2 {
+    color: var(--text-dark);
+    font-size: 18px;
+    margin-bottom: var(--spacing-sm);
+    position: relative;
+    padding-left: var(--spacing-md);
+}
+
+.emergency-info h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 18px;
+    background: var(--danger-gradient);
+    border-radius: 2px;
+}
+
+.emergency-info p {
+    color: var(--text-light);
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+/* Styling for lists in emergency info */
+.emergency-info ul, 
+.emergency-info ol {
+    padding: 0;
+    margin: var(--spacing-md) 0;
+}
+
+.emergency-info li {
+    list-style-type: none;  
+    position: relative;
+    padding: var(--spacing-sm) 0 var(--spacing-sm) 35px;
+    margin-bottom: var(--spacing-xs);
+    color: var(--text-light);
+    line-height: 1.7;
+    font-size: 15px;
+    transition: var(--transition-speed);
+}
+
+.emergency-info li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 14px;
+    width: 22px;
+    height: 22px;
+    background: var(--danger-light);
+    opacity: 0.2;
+    border-radius: 50%;
+}
+
+.emergency-info li::after {
+    content: "→";
+    position: absolute;
+    left: 8px;
+    top: 11px;
+    color: var(--danger-color);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.emergency-info li:hover {
+    color: var(--text-dark);
+    transform: translateX(3px);
+}
+
+.emergency-steps {
+    counter-reset: step-counter;
+}
+
+.emergency-steps li {
+    counter-increment: step-counter;
+}
+
+.emergency-steps li::after {
+    content: counter(step-counter);
+    left: 7px;
+    top: 14px;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: var(--spacing-xl) var(--spacing-lg);
+        width: 95%;
+        max-width: 500px;
+    }
+    
+    button {
+        width: 100%;
+    }
+}

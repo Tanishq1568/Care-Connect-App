@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care Contribution</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/contribution.css') }}">
+</head>
+<body>
+    <div class="blood-contribution">
+        <div class="bc-text">
+            <h2>Blood Contribution</h2>
+            <p>Blood donation is a noble act that can save lives. By donating blood, you can help those in need and make a difference in your community.</p>
+            <a href="#contribute-form" class="btn" data-contribution-type="blood">Contribute!</a>
+        </div>
+        <div class="bc-image">
+            <img src="{{ url_for('static', filename='img/blood-contribution.jpg') }}" alt="blood-contribution">
+        </div>
+    </div>
+    <div class="money-contribution">
+        <div class="mc-text">
+            <h2>Money Contribution</h2>
+            <p>Financial contributions can help support various causes and organizations. Your donation can make a significant impact on the lives of those in need.</p>
+            <a href="#contribute-form" class="btn" data-contribution-type="money">Contribute!</a>
+        </div>
+        <div class="mc-image">
+            <img src="{{ url_for('static', filename='img/money-contribution.jpg') }}" alt="money-contribution">
+        </div>
+    </div>
+    <div class="other-contribution">
+        <div class="oc-text">
+            <h2>Other Contribution</h2>
+            <p>There are many ways to contribute beyond blood and money. Whether it's volunteering your time, donating goods, or supporting local initiatives, every effort counts.</p>
+            <a href="#contribute-form" class="btn" data-contribution-type="other">Contribute!</a>
+        </div>
+        <div class="oc-image">
+            <img src="{{ url_for('static', filename='img/other-contribution.jpg') }}" alt="other-contribution">
+        </div>
+    </div>
+    <section id="contribute-form">
+            <h2>Contribution Form</h2>
+            <form id="contributionForm">
+                <div class="form-group">
+                    <label for="contributionType">Contribution Type:</label>
+                    <select id="contributionType" name="contributionType" required>
+                        <option value="" disabled selected>Select contribution type</option>
+                        <option value="blood">Blood Donation</option>
+                        <option value="money">Financial Contribution</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group" id="otherDescriptionGroup" style="display: none;">
+                    <label for="otherDescription">Please describe your contribution:</label>
+                    <textarea id="otherDescription" name="otherDescription" rows="3" style="resize: none;" required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Submit Contribution</button>
+                </div>
+            </form>
+        </div>
+
+    </section>
+    <script src="{{ url_for('static', filename='js/contribution.js') }}"></script>
+</body>
+</html>

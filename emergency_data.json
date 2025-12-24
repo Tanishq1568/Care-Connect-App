@@ -1,0 +1,86 @@
+{
+    "Bleeding": [
+        "Apply direct pressure on the wound with a clean cloth.",
+        "Keep applying pressure until the bleeding stops.",
+        "If bleeding is severe, keep the injured area elevated.",
+        "Seek medical help if necessary."
+    ],
+    "Burns": [
+        "Remove the person from the heat source.",
+        "Cool the burn with cool (not ice-cold) running water for at least 10 minutes.",
+        "Cover the burn with a clean, non-stick dressing.",
+        "Avoid breaking blisters and do not apply ointments."
+    ],
+    "Choking": [
+        "Ask if the person can speak or cough.",
+        "If not, perform 5 back blows between the shoulder blades.",
+        "If still choking, perform 5 abdominal thrusts.",
+        "Repeat until the object is dislodged or help arrives."
+    ],
+    "Drowning": [
+        "Call emergency services immediately.",
+        "Remove the person from water and lay them on their back.",
+        "Check for breathing and start CPR if necessary.",
+        "Place them in the recovery position if they start breathing."
+    ],
+    "Electric Shock": [
+        "Turn off the power source before touching the person.",
+        "Check if they are breathing and start CPR if needed.",
+        "Cover burns with a sterile, non-stick bandage.",
+        "Call emergency services."
+    ],
+    "Fracture": [
+        "Keep the injured area still and do not attempt to move it.",
+        "Apply a splint if trained to do so.",
+        "Use ice packs to reduce swelling.",
+        "Call for medical help."
+    ],
+    "Head Injury": [
+        "Keep the person still and calm.",
+        "Apply a cold compress to reduce swelling.",
+        "Monitor for signs of concussion (confusion, vomiting, unconsciousness).",
+        "Seek medical attention if symptoms worsen."
+    ],
+    "Heart Attack": [
+        "Call emergency services immediately (Dial 112/911).",
+        "Make the person sit and stay calm.",
+        "Loosen tight clothing.",
+        "If they are unconscious, begin CPR if trained."
+    ],
+    "Heat Stroke": [
+        "Move the person to a cool, shaded area.",
+        "Cool their body with water, ice packs, or fans.",
+        "Have them sip cool water if they are conscious.",
+        "Call for medical help if they become unconscious."
+    ],
+    "Poisoning": [
+        "Call the Poison Control Center or emergency services.",
+        "Do not induce vomiting unless instructed by a medical professional.",
+        "If the person is unconscious, check for breathing and perform CPR if necessary.",
+        "Provide information about the poison if possible."
+    ],
+    "Seizure": [
+        "Stay calm and protect the person from injury.",
+        "Do not hold them down or put anything in their mouth.",
+        "Turn them onto their side to help breathing.",
+        "Call emergency services if the seizure lasts more than 5 minutes."
+    ],
+    "Severe Allergic Reaction (Anaphylaxis)": [
+        "Call emergency services immediately.",
+        "If the person has an epinephrine auto-injector (EpiPen), help them use it.",
+        "Lay the person flat and elevate their legs if possible.",
+        "Monitor breathing and be prepared to start CPR if needed."
+    ],
+    "Snake Bite": [
+        "Keep the victim calm and still to slow the spread of venom.",
+        "Remove tight clothing and jewelry near the bite area.",
+        "Do not suck out the venom or apply ice.",
+        "Seek immediate medical help."
+    ],
+    "Stroke": [
+        "Remember FAST: Face drooping, Arm weakness, Speech difficulty, Time to call emergency services.",
+        "Lay the person down with their head slightly elevated.",
+        "Do not give them food or water.",
+        "Seek medical help immediately."
+    ]
+}

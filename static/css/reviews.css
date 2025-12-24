@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    /* Primary Colors */
+    --primary-color: #1A76D1;
+    --primary-dark: #1563b5;
+    
+    /* Text Colors */
+    --text-dark: #2C2D3F;
+    --text-light: #868686;
+    --text-placeholder: #bbb;
+    
+    /* Neutral Colors */
+    --white: #fff;
+    --light-gray: #f9f9f9;
+    --border-color: #eee;
+    
+    /* Rating Colors */
+    --star-filled: #FFD700;
+    --star-empty: #ddd;
+    
+    /* Shadow */
+    --box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    --button-shadow: 0 5px 15px rgba(26, 118, 209, 0.3);
+    
+    /* Border Radius */
+    --border-radius: 5px;
+    --border-radius-large: 8px;
+    
+    /* Spacing */
+    --spacing-xs: 5px;
+    --spacing-sm: 10px;
+    --spacing-md: 15px;
+    --spacing-lg: 20px;
+    --spacing-xl: 30px;
+    --spacing-xxl: 40px;
+    
+    /* Transitions */
+    --transition-speed: 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: var(--light-gray);
+    color: var(--text-dark);
+}
+
+body {
+    padding: 50px 0;
+    height: max-content;
+}
+
+#review-head {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    text-align: center;
+    position: relative; 
+    padding-bottom: var(--spacing-md);
+}
+
+#review-head:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    height: 3px;
+    width: 50px;
+    background: var(--primary-color);
+}
+
+#post-review {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    background: var(--white);
+    padding: var(--spacing-xxl);
+    border-radius: var(--border-radius-large);
+    box-shadow: var(--box-shadow);
+}
+
+h1, h2 {
+    color: var(--text-dark);
+    font-weight: 600;
+    margin-bottom: var(--spacing-xl);
+    position: relative;
+    padding-bottom: var(--spacing-md);
+}
+
+h2:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 50px;
+    background: var(--primary-color);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+label {
+    font-weight: 500;
+    color: var(--text-dark);
+    margin-bottom: var(--spacing-xs);
+    display: block;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px var(--spacing-md);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    font-size: 14px;
+    color: var(--text-dark);
+    transition: var(--transition-speed);
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+textarea {
+    min-height: 150px;
+}
+
+.rating {
+    margin: var(--spacing-sm) 0;
+}
+
+/* Star rating styling */
+.stars {
+    display: flex;
+    gap: var(--spacing-xs);
+    margin-top: var(--spacing-sm);
+}
+
+.stars i {
+    font-size: 24px;
+    cursor: pointer;
+    transition: var(--transition-speed);
+}
+
+.stars i.fa-solid {
+    color: var(--star-filled); 
+}
+
+.stars i.fa-regular {
+    color: var(--star-empty);
+}
+
+/* For displayed reviews */
+.rating-display .fas.fa-star {
+    color: var(--star-filled);
+}
+
+.rating-display .far.fa-star {
+    color: var(--star-empty);
+}
+
+/* Hover effect for stars */
+.stars:hover i.fa-solid {
+    color: var(--star-filled);
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    padding: var(--spacing-md) 25px;
+    font-weight: 500;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition-speed);
+    font-size: 16px;
+    margin-top: var(--spacing-sm);
+}
+
+button:hover {
+    background-color: var(--primary-dark);
+    transform: translateY(-2px);
+    box-shadow: var(--button-shadow);
+}
+
+#reviews-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#reviews-container h2 {
+    text-align: center;
+    margin-bottom: var(--spacing-xl);
+}
+
+.review-item {
+    background: var(--white);
+    padding: 25px;
+    border-radius: var(--border-radius-large);
+    margin-bottom: var(--spacing-lg);
+    box-shadow: var(--box-shadow);
+    transition: var(--transition-speed);
+}
+
+.review-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+    padding-bottom: var(--spacing-sm);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.review-header h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.rating-display {
+    display: flex;
+    gap: 3px;
+}
+
+.review-item p {
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+.review-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-md);
+    color: var(--text-light);
+    font-size: 14px;
+}
+
+.reviewer-name {
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.review-date {
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    #post-review, #reviews-container {
+        padding: var(--spacing-lg);
+        margin: 0 var(--spacing-lg) 30px var(--spacing-lg);
+    }
+    
+    .review-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--spacing-sm);
+    }
+    
+    .review-meta {
+        flex-direction: column;
+        gap: var(--spacing-xs);
+    }
+}

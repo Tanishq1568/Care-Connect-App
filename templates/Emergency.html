@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Emergency.css') }}">
+</head>
+<body>
+    <h1>Emergency Assistance Bot</h1>
+    <label for="emergency">Select an Emergency:</label>
+    <select id="emergency"></select>
+    <button onclick="getEmergencySteps()">Get Steps</button>
+    <div id="steps-container"></div>
+    <div id="response"></div>
+    <button onclick="callAmbulance()">Call Ambulance</button>
+    <script src="{{ url_for('static', filename='js/Emergency.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Detector</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/HealthDetector.css') }}">
+</head>
+<body>
+    
+    <h2>Health Symptom Analyzer</h2>
+    
+    {% if result %}
+    <div class="result-container">
+        <h3>Disease Prediction:</h3>
+        <div class="prediction-result">{{ result }}</div>
+        <p>Note: This is only a preliminary assessment based on the symptoms provided. Please consult with a healthcare professional for a proper diagnosis.</p>
+        <a href="{{ url_for('health_detector_index') }}" class="new-prediction-btn">Start New Prediction</a>
+    </div>
+    {% else %}
+    <div class="symptom-selector">
+        <p>Select symptoms you're experiencing to get a preliminary health assessment.</p>
+        <label for="symptom-select">Choose Symptoms:</label>
+        <select id="symptom-select">
+            <option value="" disabled selected>Select a symptom</option>
+        </select>
+        <div id="selectedSymptoms"></div>
+        <form action="{{ url_for('health_detector_index') }}" method="POST">
+            <input type="hidden" id="hiddenSymptoms" name="symptoms">
+            <button type="submit">Analyze Symptoms</button>
+        </form>
+    </div>
+    {% endif %}
+    
+    <script src="{{ url_for('static', filename='js/HealthDetector.js') }}"></script>
+</body>
+</html>

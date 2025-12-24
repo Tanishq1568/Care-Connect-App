@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    /* Primary Colors */
+    --primary-color: #1A76D1;
+    --primary-dark: #1563b5;
+    --primary-light: #4a94e6;
+    --primary-gradient: linear-gradient(135deg, #1A76D1 0%, #3a8be0 100%);
+    --success-color: #28a745;
+    --success-dark: #218838;
+    --success-light: #48c267;
+    --success-gradient: linear-gradient(135deg, #28a745 0%, #48c267 100%);
+    
+    /* Text Colors */
+    --text-dark: #2C2D3F;
+    --text-light: #868686;
+    --text-placeholder: #bbb;
+    
+    /* Neutral Colors */
+    --white: #fff;
+    --light-gray: #f9f9f9;
+    --light-gray-alt: #f0f3f8;
+    --border-color: #eee;
+    
+    /* Shadow */
+    --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    --button-shadow: 0 8px 20px rgba(26, 118, 209, 0.25);
+    --success-button-shadow: 0 8px 20px rgba(40, 167, 69, 0.25);
+    --button-shadow-hover: 0 12px 25px rgba(26, 118, 209, 0.35);
+    --success-button-shadow-hover: 0 12px 25px rgba(40, 167, 69, 0.35);
+    
+    /* Border Radius */
+    --border-radius: 6px;
+    --border-radius-large: 12px;
+    
+    /* Spacing */
+    --spacing-xs: 5px;
+    --spacing-sm: 10px;
+    --spacing-md: 15px;
+    --spacing-lg: 20px;
+    --spacing-xl: 30px;
+    --spacing-xxl: 40px;
+    
+    /* Transitions */
+    --transition-speed: 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background: var(--light-gray-alt);
+    color: var(--text-dark);
+}
+
+body {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: max-content;
+}
+
+h1 {
+    color: var(--text-dark);
+    font-weight: 600;
+    margin-bottom: var(--spacing-xl);
+    position: relative;
+    padding-bottom: var(--spacing-md);
+    text-align: center;
+    font-size: 32px;
+}
+
+h1:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    height: 4px;
+    width: 60px;
+    background: var(--primary-gradient);
+    border-radius: 4px;
+}
+
+.container {
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+    background: var(--white);
+    padding: var(--spacing-xxl);
+    border-radius: var(--border-radius-large);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: var(--primary-gradient);
+}
+
+input, select {
+    width: 100%;
+    padding: 14px var(--spacing-md);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    font-size: 15px;
+    color: var(--text-dark);
+    transition: var(--transition-speed);
+    margin: var(--spacing-md) 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+}
+
+input:focus, select:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(26, 118, 209, 0.15);
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%232C2D3F' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right var(--spacing-md) center;
+}
+
+input::placeholder {
+    color: var(--text-placeholder);
+}
+
+button {
+    background: var(--primary-gradient);
+    color: var(--white);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 14px 30px;
+}

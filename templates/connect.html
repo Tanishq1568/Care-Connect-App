@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>CareConnect</title>
+    <link rel='stylesheet' href="{{ url_for('static', filename='css/connect.css') }}">
+</head>
+<body>
+    <h1>Join CareConnect</h1>
+    <div id='join-form'>
+        <form id='form'>
+            <label for='name'>Name:* </label>
+            <input type='text' id='name' required placeholder="Enter your name">
+
+            <label for='email'>Email:* </label>
+            <input type='email' id='email' required placeholder="Enter your email">
+
+            <label for="contact">Contact Number:* </label>
+            <input type="tel" id="contact" required pattern="[0-9]{10}" placeholder="Valid 10-digit phone number.">
+
+            <label for="company">Company Name:* </label>
+            <input type="text" id="company" required placeholder="Enter your company name">
+
+            <label for="service">Service Idea:* </label>
+            <textarea id="service" required style="resize: none;" placeholder="Enter your Idea"></textarea>
+
+            <label for="url">Website/Demo Project URL:</label>
+            <input type="url" id="url" pattern="https?://.+" placeholder="Enter your website/demo project URL">
+
+            <button type='submit'>Join</button>
+        </form>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/connect.js') }}"></script>
+</body>
+</html>
