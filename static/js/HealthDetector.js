@@ -34,35 +34,49 @@ document.addEventListener("DOMContentLoaded", function (){
         let selectedSymptom = symptomSelect.value;
         if(selectedSymptom){
             addSymptom(selectedSymptom);
+            // reset the select so user can pick another symptom
+            symptomSelect.selectedIndex = 0;
         }
     });
 
-    // Handle form submission
+    // Handle form submission via AJAX (improves UX and avoids full-page reloads)
     form.addEventListener("submit", function(event) {
         event.preventDefault();
-        
+
         // Get all selected symptoms
-        let selected = Array.from(document.querySelectorAll(".tag")).map(tag => tag.textContent);
-        
-        // Clear existing hidden inputs
-        const existingInputs = document.querySelectorAll('input[name="symptoms"]');
-        existingInputs.forEach(input => input.remove());
-        
-        // Create a hidden input for each symptom
-        selected.forEach(symptom => {
-            const input = document.createElement('input');
-            input.type = 'hidden';
-            input.name = 'symptoms';
-            input.value = symptom;
-            form.appendChild(input);
-        });
-        
-        // Submit the form if we have symptoms
-        if (selected.length > 0) {
-            form.submit();
-        } else {
+        let selected = Array.from(document.querySelectorAll(".tag")).map(tag => tag.textContent.trim());
+
+        if (selected.length === 0) {
             alert("Please select at least one symptom");
+            return;
         }
+
+        // Disable submit while processing
+        const submitBtn = form.querySelector('button[type="submit"]');
+        submitBtn.disabled = true;
+        const originalText = submitBtn.textContent;
+        submitBtn.textContent = 'Analyzing...';
+
+        // POST to JSON API
+        fetch('/api/health_detector', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ symptoms: selected })
+        })
+        .then(resp => resp.json())
+        .then(data => {
+            // Replace selector UI with result container
+            const resultHtml = `\n                <div class="result-container">\n                    <h3>Disease Prediction:</h3>\n                    <div class="prediction-result">${data.result}</div>\n                    <p>Note: This is only a preliminary assessment based on the symptoms provided. Please consult with a healthcare professional for a proper diagnosis.</p>\n                    <a href="/health_detector" class="new-prediction-btn">Start New Prediction</a>\n                </div>`;
+            document.querySelector('.symptom-selector').outerHTML = resultHtml;
+        })
+        .catch(err => {
+            console.error('Health detector request failed:', err);
+            alert('Failed to analyze symptoms. Please try again.');
+        })
+        .finally(() => {
+            submitBtn.disabled = false;
+            submitBtn.textContent = originalText;
+        });
     });
 
     function addSymptom(symptom){

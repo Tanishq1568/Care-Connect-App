@@ -36,9 +36,14 @@ loginSubmit.addEventListener("click", function (event) {
             window.location.href = "/index";
         })
         .catch((error) => {
-            const errorCode = error.code;
-            const errorMessage = error.message;
-            alert(`Error: ${errorMessage}`);
+            // Log full error for debugging
+            console.error('Firebase signIn error:', error);
+
+            // Provide clearer feedback to the user and actionable hints
+            const errorCode = error && error.code ? error.code : 'UNKNOWN_ERROR';
+            const errorMessage = error && error.message ? error.message : JSON.stringify(error);
+
+            alert(`Sign-in failed (${errorCode}): ${errorMessage}\n\nHints: ensure Email/Password sign-in is enabled in Firebase Auth and your API key / Authorized domains are correct.`);
         });
 });
 

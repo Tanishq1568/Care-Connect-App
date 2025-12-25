@@ -1,0 +1,1002 @@
+
+------------------------------------------------------------
+Incoming: GET /index from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /__debug/index_diag from 127.0.0.1 UA: Werkzeug/3.1.4
+
+------------------------------------------------------------
+Incoming: POST /login from 127.0.0.1 UA: Werkzeug/3.1.4
+
+------------------------------------------------------------
+Incoming: GET /index from 127.0.0.1 UA: Werkzeug/3.1.4
+
+------------------------------------------------------------
+INDEX_HANDLER_ENTER: GET /index from 127.0.0.1
+INDEX_HANDLER_EXIT: safe_render returned
+
+------------------------------------------------------------
+Incoming: GET / from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/login.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/register.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/login.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/icon-google.svg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/icon-facebook.svg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/icon-apple.svg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/main.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/bg-img.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /favicon.ico from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /index from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+INDEX_HANDLER_ENTER: GET /index from 127.0.0.1
+INDEX_HANDLER_EXIT: safe_render returned
+
+------------------------------------------------------------
+Incoming: GET /static/css/bootstrap.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/nice-select.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/font-awesome.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/icofont.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/slicknav.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/owl-carousel.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/datepicker.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/animate.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/magnific-popup.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/normalize.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/style.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/responsive.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/logo.png from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/section-img.png from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery-migrate-3.0.0.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/easing.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/colors.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery-ui.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/slicknav.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.nav.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/bootstrap-datepicker.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/popper.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.scrollUp.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/niceselect.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/owl-carousel.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/tilt.jquery.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.counterup.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/steller.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/wow.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.magnific-popup.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/bootstrap.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/main.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/img/fun-bg.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/img/video-bg.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/fonts/icofont.woff2 from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/fonts/fontawesome-webfont.woff2 from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/favicon.png from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider1.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider2.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider3.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider4.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider5.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider6.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider7.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider8.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider9.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider10.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/favicon.png from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /health_detector from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/HealthDetector.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/HealthDetector.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: POST /api/health_detector from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /health_detector from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/HealthDetector.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/HealthDetector.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /contact from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/bootstrap.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/font-awesome.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/nice-select.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/icofont.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/slicknav.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/owl-carousel.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/datepicker.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/animate.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/magnific-popup.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/normalize.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/style.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/responsive.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/logo.png from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery-migrate-3.0.0.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery-ui.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/easing.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/colors.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/popper.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/bootstrap-datepicker.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.nav.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/slicknav.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.scrollUp.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/niceselect.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/tilt.jquery.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/owl-carousel.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.counterup.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/steller.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/wow.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/fonts/icofont.woff2 from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/fonts/fontawesome-webfont.woff2 from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/gmaps.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.magnific-popup.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/bread-bg.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/map-active.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/bootstrap.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/main.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/favicon.png from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /img/map-marker.png from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /img/map-marker.png from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /emergency from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/Emergency.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/Emergency.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /get_emergency_list from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: POST /get_emergency_steps from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /index from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+INDEX_HANDLER_ENTER: GET /index from 127.0.0.1
+INDEX_HANDLER_EXIT: safe_render returned
+
+------------------------------------------------------------
+Incoming: GET /.well-known/appspecific/com.chrome.devtools.json from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/bootstrap.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/nice-select.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/font-awesome.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/icofont.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/slicknav.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/owl-carousel.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/datepicker.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/animate.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/magnific-popup.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/style.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/normalize.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/responsive.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/logo.png from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/section-img.png from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery-migrate-3.0.0.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery-ui.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/easing.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/colors.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/popper.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/bootstrap-datepicker.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.nav.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/slicknav.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.scrollUp.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/niceselect.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/tilt.jquery.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/owl-carousel.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.counterup.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/steller.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/wow.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.magnific-popup.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/bootstrap.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/main.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/bootstrap.min.css.map from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/img/fun-bg.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/img/video-bg.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/fonts/icofont.woff2 from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/fonts/fontawesome-webfont.woff2 from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/popper.min.js.map from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/bootstrap.min.js.map from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider3.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider2.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider1.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/favicon.png from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider4.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider5.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider6.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider8.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider7.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider9.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider10.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /Appointment from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/booking.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/booking.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /index from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+INDEX_HANDLER_ENTER: GET /index from 127.0.0.1
+INDEX_HANDLER_EXIT: safe_render returned
+
+------------------------------------------------------------
+Incoming: GET /static/css/bootstrap.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/nice-select.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/font-awesome.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/icofont.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/slicknav.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/owl-carousel.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/datepicker.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/animate.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/magnific-popup.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/normalize.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/style.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/responsive.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/logo.png from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/section-img.png from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery-ui.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery-migrate-3.0.0.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/easing.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/colors.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/popper.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/bootstrap-datepicker.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.nav.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.scrollUp.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/slicknav.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/niceselect.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/tilt.jquery.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/owl-carousel.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.counterup.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/steller.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/wow.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.magnific-popup.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/bootstrap.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/main.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/img/fun-bg.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/img/video-bg.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/fonts/icofont.woff2 from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/fonts/fontawesome-webfont.woff2 from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider1.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/favicon.png from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider2.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider3.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider4.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider5.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider6.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider7.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider8.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider9.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider10.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /index from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+INDEX_HANDLER_ENTER: GET /index from 127.0.0.1
+INDEX_HANDLER_EXIT: safe_render returned
+
+------------------------------------------------------------
+Incoming: GET /static/css/bootstrap.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/nice-select.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/font-awesome.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/icofont.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/slicknav.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/datepicker.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/animate.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/owl-carousel.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/magnific-popup.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/normalize.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/style.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/responsive.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/logo.png from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/section-img.png from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery-migrate-3.0.0.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery-ui.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/easing.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/colors.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/popper.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/bootstrap-datepicker.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.nav.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/slicknav.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.scrollUp.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/tilt.jquery.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/niceselect.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/owl-carousel.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.counterup.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/steller.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/fonts/icofont.woff2 from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/fonts/fontawesome-webfont.woff2 from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.magnific-popup.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/wow.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/bootstrap.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/main.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/img/fun-bg.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/img/video-bg.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/favicon.png from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider1.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider2.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider3.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider4.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider5.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider6.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider7.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider8.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider9.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider10.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /CareContribution from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/contribution.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/blood-contribution.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/money-contribution.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/other-contribution.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/contribution.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /index from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+INDEX_HANDLER_ENTER: GET /index from 127.0.0.1
+INDEX_HANDLER_EXIT: safe_render returned
+
+------------------------------------------------------------
+Incoming: GET /static/css/bootstrap.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/nice-select.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/font-awesome.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/icofont.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/slicknav.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/owl-carousel.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/datepicker.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/animate.min.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/magnific-popup.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/normalize.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/style.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/logo.png from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/responsive.css from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/section-img.png from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery-migrate-3.0.0.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery-ui.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/easing.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/colors.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/popper.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/bootstrap-datepicker.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.nav.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/slicknav.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.scrollUp.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/niceselect.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/tilt.jquery.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/owl-carousel.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.counterup.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/steller.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/wow.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/jquery.magnific-popup.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/bootstrap.min.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/js/main.js from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/img/fun-bg.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/css/img/video-bg.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/fonts/icofont.woff2 from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/fonts/fontawesome-webfont.woff2 from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/favicon.png from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider1.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider2.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider3.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider4.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider5.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider6.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider8.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider9.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+------------------------------------------------------------
+Incoming: GET /static/img/slider10.jpg from 127.0.0.1 UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
